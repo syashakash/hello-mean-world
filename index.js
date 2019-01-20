@@ -13,10 +13,10 @@ msg.save().then(doc => {
     console.log(err);
 });
 
-msgModel.find({name: 'first message'}).then(doc => {
+msgModel.findOne({name: 'first message'}).then(doc => {
     app.get('/', (req,res) => {
         res.send(doc);
-    })
+    });
 }).catch(err => {
     console.log(err);
 });
