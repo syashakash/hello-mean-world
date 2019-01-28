@@ -9,7 +9,7 @@
 .box {
 	width:500px;
 	height:500px;
-	background: rgb(199, 94, 90);
+	background: rgba(223, 231, 229, 0.603);
     margin:40px auto;
     text-align: center;
 }

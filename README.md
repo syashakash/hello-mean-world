@@ -35,7 +35,7 @@ Then,
 ```
 cd hello-world
 npm install
-node index.js
+npm start
 ```
 
 Now our backend is ready, keep the node server running.
@@ -46,5 +46,13 @@ ng serve --open
 ```
 This will start the front end and voila, our MEAN stack app just said Hello World. Play around and you can make the page say anything in any style.
 
+If you get this error:
+```
+Could not find module "@angular-devkit/build-angular" from "/hello-mean-world-master/ngApp"
+```
+Just do:
+```
+npm update
+```
 ## Author
 [Akash Shivram](https://github.com/syashakash)
