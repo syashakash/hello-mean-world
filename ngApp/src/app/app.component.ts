@@ -20,7 +20,7 @@ export class AppComponent {
     this.newService.getMessage().subscribe(Response => {
       this.myVar = Response.message;
     }, err => {
-      console.log("No Success");
+      console.log("No Success",err);
     });
   }
 }
